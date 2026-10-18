@@ -1,0 +1,15 @@
+conda create -p venv python==3.11 -y
+used to create environment
+
+conda activate venv/  
+to activate the environment
+
+$ When we start creating ANN
+- We have to initialize Sequential N/W
+-For Creating hidden neurons we use Dense From Keras 
+-For every node we use activation function
+-Apply Optimizers in Back propagation for updating weights and bias
+-Loss function we try to reduce
+-Metrics-->accuracy,mse,mae
+-My training information i will store in folder using Tensorboard and 
+its aim is to display the logs in order to understand(Visuliaze)
